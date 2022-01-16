@@ -1,0 +1,26 @@
+.what-container {
+  background-image: url(../../../assets/img/what-bg.jpg);
+  background-repeat: round;
+  height: 95vh;
+  overflow-x: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  width: 50%;
+  margin-top: 20%;
+  background: #fff;
+  height: max-content;
+}
+
+.card-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(81, 81, 85);
+}
+
+.card-content {
+  margin: 10px;
+}

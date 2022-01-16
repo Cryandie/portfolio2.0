@@ -1,0 +1,21 @@
+.work-container {
+  height: 95vh;
+}
+
+.work-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.work-header p {
+  margin: 75px;
+}
+
+.imgs-container {
+  display: flex;
+  justify-content: center;
+}
