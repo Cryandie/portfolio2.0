@@ -1,5 +1,5 @@
 .intro-container {
-  height: 95vh;
+  height: 100vh;
   background-image: url(../../../assets/img/intro-bg.jpg);
   background-repeat: round;
 }
@@ -26,4 +26,6 @@
 .welcome-title {
   background-color: rgba(0, 0, 0, 0.616);
   border-radius: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
