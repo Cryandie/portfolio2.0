@@ -1,5 +1,5 @@
 <mat-toolbar class="nav-container">
-  <span> Seïf</span>
+  <span class="nav-brand"> Seïf Portfolio</span>
 
   <span class="links-spacer"></span>
   <ul class="links-container">
@@ -13,16 +13,41 @@
 
 <div #intro>
   <app-intro></app-intro>
+  <section class="separator">
+    <mat-icon class="down-arrow" (click)="scroll(who)"
+      >arrow_circle_down</mat-icon
+    >
+  </section>
 </div>
 <div #who>
   <app-who></app-who>
+  <section class="separator">
+    <mat-icon class="down-arrow" (click)="scroll(what)"
+      >arrow_circle_down</mat-icon
+    >
+  </section>
 </div>
 <div #what>
   <app-what></app-what>
+  <section class="separator">
+    <mat-icon class="down-arrow" (click)="scroll(work)"
+      >arrow_circle_down</mat-icon
+    >
+  </section>
 </div>
 <div #work>
   <app-work></app-work>
+  <section class="separator">
+    <mat-icon class="down-arrow" (click)="scroll(contact)"
+      >arrow_circle_down</mat-icon
+    >
+  </section>
 </div>
 <div #contact>
   <app-contact></app-contact>
+  <section class="separator">
+    <mat-icon class="down-arrow" (click)="scroll(intro)"
+      >arrow_circle_up</mat-icon
+    >
+  </section>
 </div>

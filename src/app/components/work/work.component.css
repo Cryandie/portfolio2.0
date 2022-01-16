@@ -8,11 +8,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
 }
 
 .work-header p {
   margin: 75px;
+  width: 70%;
+}
+
+.work-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
 }
 
 .imgs-container {
