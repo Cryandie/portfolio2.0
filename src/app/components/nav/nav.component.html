@@ -3,10 +3,26 @@
 
   <span class="links-spacer"></span>
   <ul class="links-container">
-    <li class="nav-link">Intro</li>
-    <li class="nav-link">Who I Am</li>
-    <li class="nav-link">What I do</li>
-    <li class="nav-link">My Work</li>
-    <li class="nav-link">Contact</li>
+    <li class="nav-link" (click)="scroll(intro)">Intro</li>
+    <li class="nav-link" (click)="scroll(who)">Who I Am</li>
+    <li class="nav-link" (click)="scroll(what)">What I do</li>
+    <li class="nav-link" (click)="scroll(work)">My Work</li>
+    <li class="nav-link" (click)="scroll(contact)">Contact</li>
   </ul>
 </mat-toolbar>
+
+<div #intro>
+  <app-intro></app-intro>
+</div>
+<div #who>
+  <app-who></app-who>
+</div>
+<div #what>
+  <app-what></app-what>
+</div>
+<div #work>
+  <app-work></app-work>
+</div>
+<div #contact>
+  <app-contact></app-contact>
+</div>
