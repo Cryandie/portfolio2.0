@@ -21,7 +21,6 @@
   margin-top: 70px;
 }
 
-.imgs-container {
-  display: flex;
-  justify-content: center;
+mat-grid-tile {
+  background: rgb(144, 182, 195);
 }

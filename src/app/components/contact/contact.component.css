@@ -40,6 +40,7 @@
 .message-form-field,
 .message-form-field textarea {
   padding: 25px;
+  margin-top: 25px;
 }
 
 .top-form-section {

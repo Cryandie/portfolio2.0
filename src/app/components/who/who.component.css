@@ -18,8 +18,16 @@
   font-size: 60px;
   font-weight: bold;
   color: rgb(81, 81, 85);
+  padding: 20px;
 }
 
 .card-content {
   margin: 10px;
+  padding-left: 40px;
+  display: flex;
+}
+
+.card-content p {
+  line-height: 35px;
+  margin-left: 5px;
 }

@@ -21,6 +21,7 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatSortModule } from '@angular/material/sort';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatGridListModule } from '@angular/material/grid-list';
 
 const MaterialComponents = [
   MatCardModule,
@@ -44,6 +45,7 @@ const MaterialComponents = [
   MatDividerModule,
   MatSortModule,
   MatToolbarModule,
+  MatGridListModule,
 ];
 
 @NgModule({
