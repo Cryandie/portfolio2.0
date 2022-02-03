@@ -11,9 +11,14 @@ import { WhoComponent } from './components/who/who.component';
 import { WhatComponent } from './components/what/what.component';
 import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MovieAppDetailsComponent } from './components/projects-details/movie-app-details/movie-app-details.component';
+import { TodoDetailsComponent } from './components/projects-details/todo-details/todo-details.component';
+import { ForssaDetailsComponent } from './components/projects-details/forssa-details/forssa-details.component';
+import { SbsDetailsComponent } from './components/projects-details/sbs-details/sbs-details.component';
+import { ProjectsComponent } from './components/projects-details/projects/projects.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent],
+  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent, MovieAppDetailsComponent, TodoDetailsComponent, ForssaDetailsComponent, SbsDetailsComponent, ProjectsComponent],
   imports: [
     BrowserModule,
     MaterialModule,

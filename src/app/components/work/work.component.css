@@ -22,5 +22,18 @@
 }
 
 mat-grid-tile {
-  background: rgb(144, 182, 195);
+  background: rgb(238, 238, 238);
+}
+
+.top-img-container {
+  border-bottom: 1px solid #fff;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  width: 980px;
+  height: 350px;
 }

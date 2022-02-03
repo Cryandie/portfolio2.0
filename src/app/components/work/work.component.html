@@ -1,13 +1,51 @@
 <section class="work-container">
   <header class="work-header">
     <h1 class="work-title">My Work</h1>
-    <p>Here below some previews of my projects</p>
+    <p>
+      You can find here some previews of my projects. You can click on a project
+      , you will have a specific page with more informations about it
+    </p>
   </header>
 
-  <mat-grid-list cols="2" rowHeight="320px">
-    <mat-grid-tile>1</mat-grid-tile>
-    <mat-grid-tile>2</mat-grid-tile>
-    <mat-grid-tile>3</mat-grid-tile>
-    <mat-grid-tile>4</mat-grid-tile>
+  <mat-grid-list cols="8" rowHeight="320px" class="top-img-container">
+    <mat-grid-tile colspan="1"></mat-grid-tile>
+    <mat-grid-tile colspan="3"
+      ><img
+        routerLink="/projects/movie-app-details"
+        src="../../../assets/img/project-movie-app.PNG"
+        alt="Project picture preview"
+        width="950"
+        height="320"
+    /></mat-grid-tile>
+    <mat-grid-tile colspan="3">
+      <img
+        routerLink="/projects/todo-details"
+        src="../../../assets/img/project-todo.PNG"
+        alt="Project picture preview"
+        width="950"
+        height="320"
+      />
+    </mat-grid-tile>
+    <mat-grid-tile colspan="1"> </mat-grid-tile>
+  </mat-grid-list>
+  <mat-grid-list cols="8" rowHeight="320px" class="bot-img-container">
+    <mat-grid-tile colspan="1"></mat-grid-tile>
+    <mat-grid-tile colspan="3"
+      ><img
+        routerLink="/projects/forssa-details"
+        src="../../../assets/img/project-forssa.PNG"
+        alt="Project picture preview"
+        width="950"
+        height="320"
+    /></mat-grid-tile>
+    <mat-grid-tile colspan="3"
+      ><img
+        routerLink="/projects/sbs-details"
+        src="../../../assets/img/project-sbs.PNG"
+        alt="Project picture preview"
+        width="950"
+        height="320"
+    /></mat-grid-tile>
+    <mat-grid-tile colspan="1"></mat-grid-tile>
   </mat-grid-list>
 </section>
