@@ -1,7 +1,15 @@
-.sbs-container {
-  height: 95vh;
+mat-grid-list {
+  background: url("../../../../assets/img/wickedbackground.png");
+}
+mat-grid-tile {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
+}
+
+.card-container {
+  height: 675px;
+  width: 430px;
 }
