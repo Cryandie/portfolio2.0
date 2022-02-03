@@ -1,0 +1,11 @@
+<mat-toolbar
+  class="nav-container"
+  *ngIf="router.url !== '/projects' && '/main'"
+>
+  <span class="nav-brand" routerLink="/main"> Back to Main Menu</span>
+
+  <span class="links-spacer"></span>
+  <ul class="links-container">
+    <li class="nav-link" routerLink="/projects">See Other Projects</li>
+  </ul>
+</mat-toolbar>

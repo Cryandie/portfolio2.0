@@ -27,10 +27,7 @@
   padding-left: 15px;
   color: #9a9aab;
   cursor: pointer;
-}
-
-.nav-link:active {
-  color: #444449;
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -40,18 +37,4 @@
   margin-bottom: -3px;
   margin-right: -3px;
   margin-left: -3px;
-}
-
-.separator {
-  position: relative;
-  background: #0d1516;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.down-arrow {
-  font-size: 50px;
-  color: #fff;
-  cursor: pointer;
 }

@@ -16,9 +16,10 @@ import { TodoDetailsComponent } from './components/projects-details/todo-details
 import { ForssaDetailsComponent } from './components/projects-details/forssa-details/forssa-details.component';
 import { SbsDetailsComponent } from './components/projects-details/sbs-details/sbs-details.component';
 import { ProjectsComponent } from './components/projects-details/projects/projects.component';
+import { ProjectsDetailsNavComponent } from './components/projects-details/projects-details-nav/projects-details-nav.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent, MovieAppDetailsComponent, TodoDetailsComponent, ForssaDetailsComponent, SbsDetailsComponent, ProjectsComponent],
+  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent, MovieAppDetailsComponent, TodoDetailsComponent, ForssaDetailsComponent, SbsDetailsComponent, ProjectsComponent, ProjectsDetailsNavComponent],
   imports: [
     BrowserModule,
     MaterialModule,
