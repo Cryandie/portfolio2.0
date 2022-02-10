@@ -11,43 +11,65 @@
 
   <mat-grid-list cols="8" rowHeight="320px" class="top-img-container">
     <mat-grid-tile colspan="1"></mat-grid-tile>
-    <mat-grid-tile colspan="3"
+    <mat-grid-tile class="img-wrapper" colspan="3"
       ><img
+        class="blur zoom"
         routerLink="/projects/movie-app-details"
         src="../../../assets/img/project-movie-app.PNG"
         alt="Project picture preview"
         width="950"
         height="320"
-    /></mat-grid-tile>
-    <mat-grid-tile colspan="3">
+      />
+      <p
+        routerLink="/projects/movie-app-details"
+        class="project-description sl"
+      >
+        Movie App : Click to access project details
+      </p></mat-grid-tile
+    >
+    <mat-grid-tile colspan="3" class="img-wrapper">
       <img
+        class="blur zoom"
         routerLink="/projects/todo-details"
         src="../../../assets/img/project-todo.PNG"
         alt="Project picture preview"
         width="950"
         height="320"
       />
+      <p routerLink="/projects/todo-details" class="project-description sr">
+        Todo App : Click to access project details
+      </p>
     </mat-grid-tile>
     <mat-grid-tile colspan="1"> </mat-grid-tile>
   </mat-grid-list>
   <mat-grid-list cols="8" rowHeight="320px" class="bot-img-container">
     <mat-grid-tile colspan="1"></mat-grid-tile>
-    <mat-grid-tile colspan="3"
+    <mat-grid-tile colspan="3" class="img-wrapper"
       ><img
+        class="blur zoom"
         routerLink="/projects/forssa-details"
         src="../../../assets/img/project-forssa.PNG"
         alt="Project picture preview"
         width="950"
         height="320"
-    /></mat-grid-tile>
-    <mat-grid-tile colspan="3"
+      />
+      <p routerLink="/projects/forssa-details" class="project-description su">
+        Forssa : Click to access project details
+      </p></mat-grid-tile
+    >
+    <mat-grid-tile colspan="3" class="img-wrapper"
       ><img
+        class="blur zoom"
         routerLink="/projects/sbs-details"
         src="../../../assets/img/project-sbs.PNG"
         alt="Project picture preview"
         width="950"
         height="320"
-    /></mat-grid-tile>
+      />
+      <p routerLink="/projects/sbs-details" class="project-description sd">
+        SBS App : Click to access project details
+      </p></mat-grid-tile
+    >
     <mat-grid-tile colspan="1"></mat-grid-tile>
   </mat-grid-list>
 </section>

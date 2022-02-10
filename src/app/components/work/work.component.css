@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
 .work-container {
   height: 95vh;
 }
@@ -26,6 +28,8 @@ mat-grid-tile {
 }
 
 .top-img-container {
+  position: relative;
+  overflow: hidden;
   border-bottom: 1px solid #fff;
 }
 
@@ -33,7 +37,74 @@ img {
   cursor: pointer;
 }
 
-img:hover {
-  width: 980px;
-  height: 350px;
+.project-description {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Supermercado One", cursive;
+}
+
+.img-wrapper img,
+.img-wrapper .project-description {
+  transition: 200ms ease-in-out;
+}
+
+.img-wrapper .project-description {
+  visibility: hidden;
+}
+
+.img-wrapper:hover .project-description {
+  visibility: visible;
+  cursor: pointer;
+}
+
+/* img effects */
+
+.img-wrapper:hover img.blur {
+  filter: blur(5px);
+}
+.img-wrapper:hover img.zoom {
+  transform: scale(1.1);
+}
+
+/* Project Description Slide Left */
+.img-wrapper .sl {
+  transform: translateX(-100%);
+}
+
+.img-wrapper:hover .sl {
+  transform: translateX(0);
+}
+
+/* Project Description Slide right */
+.img-wrapper .sr {
+  transform: translateX(100%);
+}
+
+.img-wrapper:hover .sr {
+  transform: translateX(0);
+}
+
+/* Project Description Slide up */
+.img-wrapper .su {
+  transform: translateY(100%);
+}
+
+.img-wrapper:hover .su {
+  transform: translateY(0);
+}
+
+/* Project Description Slide down */
+.img-wrapper .sd {
+  transform: translateY(-100%);
+}
+
+.img-wrapper:hover .sd {
+  transform: translateY(0);
 }
