@@ -17,9 +17,10 @@ import { ForssaDetailsComponent } from './components/projects-details/forssa-det
 import { SbsDetailsComponent } from './components/projects-details/sbs-details/sbs-details.component';
 import { ProjectsComponent } from './components/projects-details/projects/projects.component';
 import { ProjectsDetailsNavComponent } from './components/projects-details/projects-details-nav/projects-details-nav.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent, MovieAppDetailsComponent, TodoDetailsComponent, ForssaDetailsComponent, SbsDetailsComponent, ProjectsComponent, ProjectsDetailsNavComponent],
+  declarations: [AppComponent, NavComponent, IntroComponent, WhoComponent, WhatComponent, WorkComponent, ContactComponent, MovieAppDetailsComponent, TodoDetailsComponent, ForssaDetailsComponent, SbsDetailsComponent, ProjectsComponent, ProjectsDetailsNavComponent, FooterComponent],
   imports: [
     BrowserModule,
     MaterialModule,
