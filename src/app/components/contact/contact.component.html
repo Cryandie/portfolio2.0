@@ -1,10 +1,22 @@
 <section class="contact-container">
   <header class="contact-header">
     <h1>Say Hello.</h1>
-    <p>
-      Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore
-      condimentum
+    <p class="email-wrapper">
+      You can contact me at
+      <input
+        type="text"
+        value="seifbensghaier@gmail.com"
+        id="myEmail"
+        aria-labelledby="email"
+      />
+      <button mat-raised-button (click)="copyEmail()">
+        Copy Email
+        <mat-icon class="success-icon" *ngIf="isCopied">check</mat-icon>
+      </button>
     </p>
+    <p>Or send me a message using the form below</p>
+    <mat-icon>south</mat-icon>
+    <br />
   </header>
   <mat-card class="contact-form-container">
     <form class="contact-form" action="">

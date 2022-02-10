@@ -9,6 +9,20 @@
 
 .contact-header {
   height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-icon {
+  color: rgb(21, 179, 95);
 }
 
 .contact-form-container {
@@ -64,4 +78,12 @@
   font-weight: bold;
   color: #fff;
   padding: 10px 30px;
+}
+
+input {
+  background-color: #e6e6e6;
+  border: none;
+  font-size: 16px;
+  color: grey;
+  font-weight: bold;
 }
