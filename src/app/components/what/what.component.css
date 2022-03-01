@@ -33,3 +33,13 @@
   line-height: 35px;
   margin-left: 5px;
 }
+
+@media screen and (max-width: 412px) {
+  .card-title {
+    line-height: 60px;
+  }
+
+  .card-container {
+    width: 100%;
+  }
+}

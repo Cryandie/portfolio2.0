@@ -31,3 +31,20 @@
   line-height: 35px;
   margin-left: 5px;
 }
+
+@media screen and (max-width: 412px) {
+  .card-title {
+    line-height: 60px;
+  }
+
+  .card-container {
+    width: 100%;
+  }
+
+  .who-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -28,3 +28,17 @@
   border-radius: 15px;
   padding: 15px;
 }
+
+@media screen and (max-width: 320px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome-title {
+    line-height: 30px;
+    text-align: center;
+  }
+}

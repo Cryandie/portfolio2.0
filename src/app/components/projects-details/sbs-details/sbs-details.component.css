@@ -12,3 +12,25 @@ mat-grid-tile {
   height: 675px;
   width: 430px;
 }
+
+.card-container p {
+  display: flex;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+}
+
+.demo {
+  border: 2px solid #e6e6e6;
+  padding: 3px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  float: right;
+  width: max-content;
+  color: #666672;
+  font-weight: 500;
+}

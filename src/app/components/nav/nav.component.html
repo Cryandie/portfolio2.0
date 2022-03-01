@@ -7,8 +7,26 @@
     <li class="nav-link" (click)="scroll(who)">Who I Am</li>
     <li class="nav-link" (click)="scroll(what)">What I do</li>
     <li class="nav-link" (click)="scroll(work)">My Work</li>
-    <li class="nav-link" (click)="scroll(contact)">Contact</li>
+    <!-- <li class="nav-link" (click)="scroll(contact)">Contact</li> -->
   </ul>
+  <button class="sm-nav-link-menu" mat-button [matMenuTriggerFor]="menu">
+    <mat-icon class="sm-nav-link">more_vert</mat-icon>
+  </button>
+  <mat-menu class="sm-nav-link-menu" #menu="matMenu">
+    <button mat-menu-item class="sm-nav-item" (click)="scroll(intro)">
+      <mat-icon class="sm-nav-link" id="intro-icon">home</mat-icon>
+      Intro
+    </button>
+    <button mat-menu-item class="sm-nav-item" (click)="scroll(who)">
+      <mat-icon class="sm-nav-link">help_outline</mat-icon>Who I am
+    </button>
+    <button mat-menu-item class="sm-nav-item" (click)="scroll(what)">
+      <mat-icon class="sm-nav-link">schedule</mat-icon>What I do
+    </button>
+    <button mat-menu-item class="sm-nav-item" (click)="scroll(work)">
+      <mat-icon class="sm-nav-link">work_outline</mat-icon>My Work
+    </button>
+  </mat-menu>
 </mat-toolbar>
 
 <div #intro>
@@ -37,17 +55,18 @@
 </div>
 <div #work>
   <app-work></app-work>
-  <section class="separator">
+  <!-- <section class="separator">
     <mat-icon class="down-arrow" (click)="scroll(contact)"
       >arrow_circle_down</mat-icon
     >
-  </section>
+  </section> -->
 </div>
-<div #contact>
-  <app-contact></app-contact>
-  <section class="separator">
-    <mat-icon class="down-arrow" (click)="scroll(intro)"
-      >arrow_circle_up</mat-icon
-    >
-  </section>
-</div>
+<!-- <div #contact>
+  <app-contact></app-contact> -->
+<app-footer></app-footer>
+<section class="separator">
+  <mat-icon class="down-arrow" (click)="scroll(intro)"
+    >arrow_circle_up</mat-icon
+  >
+</section>
+<!-- </div> -->

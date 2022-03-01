@@ -108,3 +108,16 @@ img {
 .img-wrapper:hover .sd {
   transform: translateY(0);
 }
+
+@media screen and (max-width: 412px) {
+  .work-container {
+    height: 100%;
+  }
+  img {
+    width: 100%;
+    height: 60%;
+  }
+  mat-grid-tile {
+    background: #fff;
+  }
+}

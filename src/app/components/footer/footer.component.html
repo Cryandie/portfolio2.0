@@ -8,7 +8,12 @@
   <span class="links-spacer"></span>
   <ul class="links-container">
     <li class="nav-link">
-      <mat-icon>email</mat-icon>: seifbensghaier@gmail.com
+      <mat-icon>email</mat-icon>:
+      <input id="myEmail" value="seifbensghaier@gmail.com" type="text" />
+      <button mat-raised-button (click)="copyEmail()">
+        {{ isCopied ? "Copied" : "Copy Email" }}
+        <mat-icon class="success-icon" *ngIf="isCopied">check</mat-icon>
+      </button>
     </li>
     <li class="nav-link">
       <a

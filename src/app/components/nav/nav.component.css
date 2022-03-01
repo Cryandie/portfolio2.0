@@ -41,6 +41,19 @@
   margin-left: -3px;
 }
 
+#intro-icon {
+  color: #fff;
+  background: rgb(20, 20, 20);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.sm-nav-link,
+.sm-nav-link-menu,
+.sm-nav-item {
+  display: none;
+}
+
 .separator {
   position: relative;
   background: #0d1516;
@@ -53,4 +66,25 @@
   font-size: 50px;
   color: #fff;
   cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .nav-link {
+    display: none;
+  }
+
+  .sm-nav-link,
+  .sm-nav-link-menu,
+  .sm-nav-item {
+    display: inline-block;
+  }
+
+  .sm-nav-link {
+    margin: 5px;
+  }
+
+  .sm-nav-item {
+    display: flex;
+    width: 100%;
+  }
 }
