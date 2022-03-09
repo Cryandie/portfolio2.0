@@ -3,21 +3,22 @@
 
   <span class="links-spacer"></span>
   <ul class="links-container">
-    <li class="nav-link" (click)="scroll(movie)">Movie App</li>
+    <li class="nav-link" (click)="scroll(sbs)">SBS App</li>
     <li class="nav-link" (click)="scroll(todo)">Todo App</li>
     <li class="nav-link" (click)="scroll(forssa)">Forssa App</li>
-    <li class="nav-link" (click)="scroll(sbs)">SBS App</li>
+    <li class="nav-link" (click)="scroll(movie)">Movie App</li>
   </ul>
 </mat-toolbar>
 
-<div #movie>
-  <app-movie-app-details></app-movie-app-details>
+<div #sbs>
+  <app-sbs-details></app-sbs-details>
   <section class="separator">
     <mat-icon class="down-arrow" (click)="scroll(todo)"
       >arrow_circle_down</mat-icon
     >
   </section>
 </div>
+
 <div #todo>
   <app-todo-details></app-todo-details>
   <section class="separator">
@@ -26,18 +27,20 @@
     >
   </section>
 </div>
+
 <div #forssa>
   <app-forssa-details></app-forssa-details>
   <section class="separator">
-    <mat-icon class="down-arrow" (click)="scroll(sbs)"
+    <mat-icon class="down-arrow" (click)="scroll(movie)"
       >arrow_circle_down</mat-icon
     >
   </section>
 </div>
-<div #sbs>
-  <app-sbs-details></app-sbs-details>
+
+<div #movie>
+  <app-movie-app-details></app-movie-app-details>
   <section class="separator">
-    <mat-icon class="down-arrow" (click)="scroll(movie)"
+    <mat-icon class="down-arrow" (click)="scroll(sbs)"
       >arrow_circle_up</mat-icon
     >
   </section>
