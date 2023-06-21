@@ -42,3 +42,8 @@
     text-align: center;
   }
 }
+
+.welcome-note {
+  color: rgb(193, 44, 166);
+  text-align: center;
+}

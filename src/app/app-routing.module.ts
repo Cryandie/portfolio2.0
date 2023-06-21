@@ -22,7 +22,7 @@ const routes: Routes = [
     component: ProjectsComponent,
   },
   {
-    path: 'projects/movie-app-details',
+    path: 'projects/backoffice-details',
     component: MovieAppDetailsComponent,
   },
   {
